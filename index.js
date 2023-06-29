@@ -1,6 +1,14 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+    // reverse the input string
+    const reversedWord = reversedWord(word);
+    // compare the reversed string to the input
+    if(word === reversedWord){
+        return true;
+    }
+    else{return false;}
+    
+  }
 
 /* 
   Add your pseudocode here
